@@ -1,0 +1,32 @@
+.card-item {
+  width: 268px;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  overflow: hidden;
+}
+.card-item__img {
+  width: 100%;
+}
+.card-item__body {
+  padding: 20px;
+}
+.card-item__name {
+  font-size: 18px;
+  font-weight: bold;
+}
+.card-item__desc {
+  font-size: 12px;
+  color: #ccc;
+}
+.btn {
+  height: 35px;
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.btn--primary {
+  background-color: #2cccff;
+}
